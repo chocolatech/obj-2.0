@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Base" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAAAAAAgAAAAAAAAAQACAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Building">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAEAEAgI=</HashCode>
+      <FileName>Building.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAABAAAAAAAAAQABAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Employee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAIAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Location.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Supply" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBgA=</HashCode>
+      <FileName>Supply.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soldier">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAEAEQAA=</HashCode>
+      <FileName>Soldier.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arsenal">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAEAUAAA=</HashCode>
+      <FileName>Arsenal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ammo" Collapsed="true">
+    <Position X="40.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ammo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barrack" Collapsed="true">
+    <Position X="18.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAKAAEAEAAA=</HashCode>
+      <FileName>Barrack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infirmary" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAgBAAAAAAAAAAAAAAAAAAAAIAAEAEAAA=</HashCode>
+      <FileName>Infirmary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Medical" Collapsed="true">
+    <Position X="37.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAFAEQAA=</HashCode>
+      <FileName>Medical.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage" Collapsed="true">
+    <Position X="21.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAEEEAgA=</HashCode>
+      <FileName>Storage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Technical" Collapsed="true">
+    <Position X="35.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAGAEQAA=</HashCode>
+      <FileName>Technical.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrainingField" Collapsed="true">
+    <Position X="33" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAIAAEAUAAA=</HashCode>
+      <FileName>TrainingField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
