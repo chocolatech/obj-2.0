@@ -61,3 +61,29 @@ void Base::Print()
 	cout << "Polozenie bazy to " << this->Site.x << ", " << this->Site.y << endl;
 	HeadCount();
 };
+
+void Base::Ressuply()
+{
+	//dla ka¿dego zolnierza z listy przypisanych
+	for (int i = 0; i < Employees.size(); i++)
+	{
+		//pobierz wymagana ilosc zaopatrzenia z budynku
+		int count=Employees[i]->GetRequiredSupplies();
+		vector<Supply*> Sup;
+		for (int i = 0; i < count; i++)
+		{
+			Employees[i]->SupplyAssignment->TakeSupplies();
+//			Sup.push_back();
+		}
+		//przekaz zolnierzowi zaopatrzenie
+	}
+};
+
+void Base::AddEmployee(Employee* E, Building* SleepB, Building* SupplyB)
+{
+	E->SleepingAssignment = SleepB;
+	E->SupplyAssignment = SupplyB;
+	SleepB->Assigned.push_back(E);
+	SupplyB->Assigned.push_back(E);
+	this->Employees.push_back(E);
+};

@@ -12,6 +12,7 @@
 
 using namespace std;
 
+class Employee;
 class Building
 {
 public:

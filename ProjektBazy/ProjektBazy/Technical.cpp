@@ -46,3 +46,9 @@ void Technical::GetSupplies(vector<Supply*>Supplylist)
 };
 
 void Technical::PrintAssignment(){};
+
+int Technical::GetRequiredSupplies()
+{
+	int count = CleaningKit::MaxQuantity - Backpack.size();
+	return count;
+};

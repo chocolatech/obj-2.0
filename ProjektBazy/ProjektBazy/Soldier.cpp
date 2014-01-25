@@ -53,3 +53,9 @@ void Soldier::GetSupplies(vector<Supply*>Supplylist)
 };
 
 void Soldier::PrintAssignment(){};
+
+int Soldier::GetRequiredSupplies()
+{
+	int count=Ammo::MaxQuantity - Backpack.size();
+	return count;
+};

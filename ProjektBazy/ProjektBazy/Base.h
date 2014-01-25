@@ -27,5 +27,7 @@ public:
 	void HeadCount();
 	void SendToTraining(vector<Employee*>EmployeesInTraining, TrainingField* tf);
 	void Print();
+	void Ressuply();
+	void AddEmployee(Employee* E, Building* SleepB, Building* SupplyB);
 };
 #endif

@@ -44,7 +44,10 @@ void Medical::GetSupplies(vector<Supply*>Supplylist)
 	}
 };
 
-void Medical::PrintAssignment()
-{
+void Medical::PrintAssignment(){};
 
+int Medical::GetRequiredSupplies()
+{
+	int count = MedKit::MaxQuantity - Backpack.size();
+	return count;
 };

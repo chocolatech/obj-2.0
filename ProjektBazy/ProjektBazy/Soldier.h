@@ -15,14 +15,12 @@ using namespace std;
 class Soldier: public Employee
 {
 public:
-	
-public:
 	Soldier::Soldier(string Name, string Surname);
 	void Print();
 	void ShowInventory();
 	void Train();
 	void GetSupplies(vector<Supply*>Supplylist);
 	void PrintAssignment();
-	void InitSupplies(){};
+	int GetRequiredSupplies();
 };
 #endif

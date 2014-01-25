@@ -15,13 +15,12 @@ using namespace std;
 class Technical : public Employee
 {
 public:
-	int* CleaningKit;
-public:
 	Technical::Technical(string Name, string Surname);
 	void Print();
 	void ShowInventory();
 	void Train();
 	void GetSupplies(vector<Supply*>Supplylist);
 	void PrintAssignment();
+	int GetRequiredSupplies();
 };
 #endif

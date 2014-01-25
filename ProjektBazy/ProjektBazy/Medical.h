@@ -15,13 +15,12 @@ using namespace std;
 class Medical : public Employee
 {
 public:
-	int* MedKit;
-public:
 	Medical::Medical(string Name, string Surname);
 	void Print();
 	void ShowInventory();
 	void Train();
 	void GetSupplies(vector<Supply*>Supplylist);
 	void PrintAssignment();
+	int GetRequiredSupplies();
 };
 #endif

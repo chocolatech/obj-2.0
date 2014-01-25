@@ -15,7 +15,6 @@ using namespace std;
 class Arsenal : public Building
 {
 public:
-	int* Bullet;
 	Location Site;
 public:
 	Arsenal::Arsenal(int x, int y);
