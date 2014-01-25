@@ -9,5 +9,5 @@ using namespace std;
 
 CleaningKit::CleaningKit()
 {
-	this->MaxQuantity = 16;
+	this->MaxQuantity = 8;
 }

@@ -28,10 +28,18 @@ void Soldier::Train()
 {
 	if (Backpack.size() == 0 || Backpack.size()<(Ammo::MaxQuantity/4))
 	{
-		string exception = "Masz za malo nabojow! Uzupelnij zapasy.";
-		throw exception;
+		string exception = this->Surname + " " + this->Name + " " + "Masz za malo nabojow! Uzupelnij zapasy. \n";
+		cout << exception;
+		return;
 	}
-	else Backpack.size() - Ammo::MaxQuantity/4;
+	else
+	{
+		int count = Backpack.size() - Ammo::MaxQuantity / 4;
+		for (int i = 0; i < count; i++)
+		{
+			Backpack.pop_back();
+		}
+	}
 	cout << "Zostalo ci " << Backpack.size() << " nabojow" << endl;
 };
 
@@ -44,7 +52,4 @@ void Soldier::GetSupplies(vector<Supply*>Supplylist)
 	}
 };
 
-void Soldier::PrintAssignment()
-{
-
-};
+void Soldier::PrintAssignment(){};

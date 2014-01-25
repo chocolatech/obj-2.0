@@ -23,5 +23,6 @@ public:
 	void Train();
 	void GetSupplies(vector<Supply*>Supplylist);
 	void PrintAssignment();
+	void InitSupplies(){};
 };
 #endif

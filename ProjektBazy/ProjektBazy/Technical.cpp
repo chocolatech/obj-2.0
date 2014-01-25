@@ -28,8 +28,9 @@ void Technical::Train()
 {
 	if (Backpack.size() == 0 || Backpack.size()<(CleaningKit::MaxQuantity / 4))
 	{
-		string exception = "Masz za malo narzedzi! Uzupelnij zapasy.";
-		throw exception;
+		string exception = this->Surname + " " + this->Name + " " + "Masz za malo narzedzi! Uzupelnij zapasy. \n";
+		cout << exception;
+		return;
 	}
 	else Backpack.size() - CleaningKit::MaxQuantity / 4;
 	cout << "Zostalo ci " << Backpack.size() << " narzedzi" << endl;
@@ -44,7 +45,4 @@ void Technical::GetSupplies(vector<Supply*>Supplylist)
 	}
 };
 
-void Technical::PrintAssignment()
-{
-
-};
+void Technical::PrintAssignment(){};

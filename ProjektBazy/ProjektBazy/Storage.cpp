@@ -13,10 +13,7 @@ Storage::Storage(int x, int y)
 	this->Site = l;
 }
 
-void Storage::Print()
-{
-
-};
+void Storage::Print(){};
 
 void Storage::PrintAssignment()
 {
@@ -28,6 +25,7 @@ void Storage::PrintAssignment()
 		cout << "-------------------------------------" << endl;
 	}
 };
+
 vector<Supply*> Storage::TakeSupplies()
 {
 	//limit to Max

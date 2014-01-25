@@ -9,5 +9,5 @@ using namespace std;
 
 MedKit::MedKit()
 {
-	this->MaxQuantity = 16;
+	this->MaxQuantity = 4;
 }

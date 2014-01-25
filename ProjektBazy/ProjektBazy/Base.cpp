@@ -48,9 +48,10 @@ void Base::SendToTraining(vector<Employee*>EmployeesInTraining, TrainingField* t
 
 		tf->Assigned.push_back(EmployeesInTraining[i]);
 		//uruchamiany cykl szkoleniowy
-		//EmployeesInTraining[i]->
+		EmployeesInTraining[i]->Train();
 
 		//powrót ¿o³nierza do bazy
+		tf->Assigned.pop_back();
 	}
 };
 

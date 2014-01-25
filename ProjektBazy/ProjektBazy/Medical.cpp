@@ -27,8 +27,9 @@ void Medical::Train()
 {
 	if (Backpack.size() == 0 || Backpack.size()<(MedKit::MaxQuantity / 4))
 	{
-		string exception = "Masz za malo apteczek! Uzupelnij zapasy.";
-		throw exception;
+		string exception = this->Surname + " " + this->Name + " " + "Masz za malo apteczek! Uzupelnij zapasy. \n";
+		cout << exception;
+		return;
 	}
 	else Backpack.size() - MedKit::MaxQuantity / 4;
 	cout << "Zostalo ci " << Backpack.size() << " apteczek" << endl;

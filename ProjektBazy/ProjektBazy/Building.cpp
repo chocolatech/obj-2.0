@@ -8,15 +8,9 @@
 using namespace std;
 
 
-void Building::Print()
-{
+void Building::Print(){};
 
-};
-
-void Building::PrintAssignment()
-{
-
-};
+void Building::PrintAssignment(){};
 
 vector<Supply*> Building::TakeSupplies()
 {
